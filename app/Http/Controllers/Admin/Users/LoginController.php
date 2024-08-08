@@ -9,6 +9,6 @@ class LoginController extends Controller
 {
     public function index()
     {
-        echo 'zia zia';
+        return view('admin.users.login',['title' => 'Đăng nhập thành công']);
     }
 }
