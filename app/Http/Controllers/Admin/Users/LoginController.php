@@ -9,6 +9,6 @@ class LoginController extends Controller
 {
     public function index()
     {
-        echo 'hithursday';
+        echo 'zia zia';
     }
 }
