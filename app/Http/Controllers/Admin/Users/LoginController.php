@@ -12,3 +12,11 @@ class LoginController extends Controller
         echo 'hithursday';
     }
 }
+
+class Moveone extends Controller
+{
+    public function haha()
+    {
+        echo 'lose in your my mind';
+    }
+}
