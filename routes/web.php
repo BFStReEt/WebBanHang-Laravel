@@ -1,6 +1,7 @@
 <?php
 
+use App\Http\Controllers\Backend\AuthController;
+use Illuminate\Auth\Events\Login;
 use Illuminate\Support\Facades\Route;
-use \App\Http\Controllers\Admin\Users\LoginController;
 
-Route::get('admin/users/login', [LoginController::class, 'index']);
+Route::get('login', [AuthController::class, 'login'])->name('auth.login');
